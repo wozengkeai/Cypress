@@ -1,1 +1,27 @@
 # Cypress
+cypress八大特性
+①时间穿梭
+
+cypress在测试代码运行时自动拍摄快照，等测试结束偶，可在cypress提供的test runner里，悬停鼠标查看命令日志，每一步都可查看
+②实时重新加载
+
+当测试代码修改后，cypress会自动加载你的改动并重新运行测试，不需要手动停止运行和重新输入命令启动
+③spies，stubs，clock
+
+cypress运行验证并控制函数行为，mock服务器响应或更改系统时间。例如目前很多运行用unit test中。
+④运行结果一致性（测试常见的一个问题，由于各种原因，同样的测试用例运行多次，测试结果却不尽相同）
+
+selenium/webdriver的浏览器驱动程序和真正运行测试的浏览器之间是通过HTTP协议交换json wire 协议生成的json payloads进行通信，因此速度慢。而cypress架构不使用selenium/webdriver，在运行速度，可靠性测试上有较好保障。
+⑤可调试性
+
+无需猜测失败原因，高可读性错误提示
+⑥自动等待
+
+使用cypress，无需再测试中添加wait或sleep。cypress会自动等待元素至可操作状态时才执行命令或断言，框架级别的等待
+⑦网络流量控制
+
+cypress可以mock服务器返回结果
+⑧截图和视频
+
+cypress在运行失败时自动截图，在无头运行时录制整个测试套件的视频。
+除以上八大特性外，cypress还是开箱即用的，不需要再像selenium/webdriver需要安装框架选择断言库的复杂操作
