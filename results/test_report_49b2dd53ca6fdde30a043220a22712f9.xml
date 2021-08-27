@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.9350" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-03-12T02:25:53" tests="0" file="cypress\integration\baidu.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="第一个hello world脚本从百度开始" timestamp="2021-03-12T02:25:53" tests="1" time="2.9350" failures="0">
+    <testcase name="第一个hello world脚本从百度开始 百度输入框功能" time="2.9350" classname="百度输入框功能">
+    </testcase>
+  </testsuite>
+</testsuites>

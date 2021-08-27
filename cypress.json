@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://suplus-front-dev.fjmaimaimai.com/",
+  "viewportWidth": 1480,
+  "viewportHeight": 1000,
+  "reporter": "junit",
+  "chromeWebSecurity": false,
+  "reporterOptions": {
+      "mochaFile": "results/test_report_[hash].xml",
+      "toConsole": true
+  }
+}
